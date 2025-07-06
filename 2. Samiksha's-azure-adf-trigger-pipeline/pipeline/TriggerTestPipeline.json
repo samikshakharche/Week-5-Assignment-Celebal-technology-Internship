@@ -1,0 +1,19 @@
+{
+    "name": "TriggerTestPipeline",
+    "properties": {
+        "activities": [
+            {
+                "name": "Wait1",
+                "type": "Wait",
+                "dependsOn": [],
+                "userProperties": [],
+                "typeProperties": {
+                    "waitTimeInSeconds": 5
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2025-07-03T11:30:01Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

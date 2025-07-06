@@ -1,0 +1,25 @@
+{
+    "name": "BlobArrivalTrigger1",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "TriggerTestPipeline",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "BlobEventsTrigger",
+        "typeProperties": {
+            "blobPathBeginsWith": "/input-data/blobs/input/",
+            "blobPathEndsWith": ".csv",
+            "ignoreEmptyBlobs": true,
+            "scope": "/subscriptions/7e4c0afa-5656-4a69-b7af-03aac7136110/resourceGroups/trigger_task_2_rg/providers/Microsoft.Storage/storageAccounts/triggerstoragesamiksha",
+            "events": [
+                "Microsoft.Storage.BlobCreated"
+            ]
+        }
+    }
+}

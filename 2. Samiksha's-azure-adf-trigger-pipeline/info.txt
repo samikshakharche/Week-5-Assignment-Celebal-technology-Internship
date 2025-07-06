@@ -1,0 +1,6 @@
+selected resource name:		TriggerTestPipeline
+selected resource type:		pipeline
+factory name:			ADFtriggersamiksha
+factory location:		southeastasia
+subscription id:		7e4c0afa-5656-4a69-b7af-03aac7136110
+time of download (UTC):		Thu, 03 Jul 2025 14:16:41 GMT
